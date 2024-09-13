@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './style.css';
 import Navbar from './Navbar';
+import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ProjectModal from './ProjectModal';
 import Contact from './Contact';
@@ -12,6 +13,9 @@ function App() {
     <>
       {/* Navbar */}
       <Navbar />
+
+      {/* About Me */}
+      <AboutMe />
 
       {/* Portfolio Section */}
       <section id="portfolio" className="py-5 mt-5">

@@ -10,6 +10,20 @@
 .custom-bg {
     background-color: #A87676;
 }
+
+#about {
+    background-color:  #A87676;
+    padding: 50px 0;
+    text-align: center;
+    color: white;
+  }
+  #about img {
+    border-radius: 10px;
+    width: 200px;
+  }
+  #about p {
+    font-size: 18px;
+  }
   
 .btn-contact {
     background-color: black;
